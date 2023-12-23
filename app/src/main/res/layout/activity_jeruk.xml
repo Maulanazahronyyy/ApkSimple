@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg2m"
+    tools:context=".JerukActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/jeruk2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="#9EBE40"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="Jeruk"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/backview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tombol_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:tint="#629F43" />
+    </FrameLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="570dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#C65401"
+        app:cardCornerRadius="15dp">
+
+        <ScrollView
+            android:layout_width="380dp"
+            android:layout_height="570dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="arial"
+                    android:text="Manfaat buah jeruk :"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="1. Sumber Vitamin C: Jeruk terkenal sebagai sumber vitamin C yang sangat baik. Vitamin C berperan penting dalam meningkatkan sistem kekebalan tubuh, membantu penyembuhan luka, dan melindungi sel-sel tubuh dari kerusakan akibat radikal bebas."
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="2. Antioksidan Tinggi: Jeruk mengandung antioksidan, seperti flavonoid dan karotenoid, yang membantu melawan stres oksidatif dan peradangan dalam tubuh. Antioksidan juga berperan dalam melindungi sel-sel dari kerusakan yang dapat menyebabkan penyakit."
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="3. Mendukung Kesehatan Jantung: Serat, kalium, dan antioksidan dalam jeruk dapat membantu menurunkan tekanan darah dan kolesterol, serta meningkatkan kesehatan jantung secara keseluruhan. Konsumsi jeruk secara teratur dapat membantu mengurangi risiko penyakit kardiovaskular."
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="4. Mengandung Serat: Jeruk mengandung serat larut dan tidak larut. Serat membantu menjaga kesehatan pencernaan, mengurangi risiko sembelit, dan dapat membantu menjaga berat badan yang sehat."
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="5. Menyediakan Vitamin B: Jeruk mengandung vitamin B kompleks, seperti tiamin, niacin, dan folat, yang berperan penting dalam metabolisme energi dan kesehatan saraf."
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="6. Mendukung Kesehatan Kulit: Kandungan vitamin C dalam jeruk membantu produksi kolagen, protein yang penting untuk kesehatan kulit. Jeruk juga dapat membantu melindungi kulit dari kerusakan akibat sinar UV."
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="7. Menyediakan Hidrasi: Jeruk mengandung sejumlah besar air, sehingga dapat membantu menjaga hidrasi tubuh, terutama saat cuaca panas."
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="8. Mendukung Fungsi Otak: Beberapa studi menunjukkan bahwa antioksidan dalam jeruk dapat mendukung kesehatan otak dan melindungi dari penyakit neurodegeneratif.      "
+                    android:textColor="#fff"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
